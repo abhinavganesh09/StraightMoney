@@ -14,8 +14,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+/lib/
+/lib64/
 parts/
 sdist/
 var/
@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node.js, Next.js, and local PostgreSQL
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+pgdata/
+
+# Environment files (keep the placeholder examples)
+.env.*
+!.env.example
+!frontend/.env.example
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local application data and uploaded evidence
+*.db
+backend/uploads/
+uploads/
